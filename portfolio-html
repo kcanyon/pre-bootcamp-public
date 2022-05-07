@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kestrel's Portfolio</title>
+</head>
+<body>
+    <img src="Images/pastel-green-color-solid-background-1920x1080.png" alt="greenbanner" style="width:1000px;height:50px;">
+    <h1>Kestrel Canyon</h1>
+    <img src="Images/IMG_4011copy.png" alt="parrotProfile" style="width:302px;height:403px">
+    <img src="Images/IMG_4661.copy.png" alt="tent" style="width:302px;height:403px">
+    <img src="Images/05A386BA-DC6D-4C2F-AE9F-93ADD56B5676.jpg" alt="couple" style="width:302px;height:403px">        
+    <div>
+        <img src="Images/25231.png" alt="github" style="width:26px;height:26px">
+        <a href="https://github.com/kcanyon/pre-bootcamp-public">Github</a>
+        <img src="Images/LinkedIn_logo_initials.png" alt="linkedinlogo" style="width:26pm;height:26px;">
+        <a href="https://www.linkedin.com/in/kestrel-canyon">LinkedIn</a>
+    </div>
+    <h3>Hobbies</h3>
+    <table>
+        <tr>
+            <th>Land</th>
+            <th>Sea</th>
+            <th>Indoors</th>
+        </tr>
+        <tr>
+            <td>Hiking</td>
+            <td>Stand-Up Paddling</td>
+            <td>Cooking</td>
+        </tr>
+        <tr>
+            <td>Camping</td>
+            <td>Surfing</td>
+            <td>Crafting</td>
+        </tr>
+        <tr>
+            <td>Running</td>
+            <td>Sailing</td>
+            <td>Reading</td>
+        </tr>
+    </table>
+    <h3>Favourite Things to Do on a Summer Day</h3>
+    <ul>
+        <li>Go to the beach</li>
+        <li>Eat fresh fruit</li>
+        <li>Swim in the ocean</li>
+    </ul>
+    <h3>Favourite Things to Do on a Winter Day</h3>
+    <ul>
+        <li>Cook a warm meal</li>
+        <li>Watch movies</li>
+        <li>Stay in and craft</li>
+    </ul>
+    <h3>Why I Am Taking This Course</h3>
+    <p>
+        For many years I have searched for a career path that sparked a passion and a feeling that told me I could do it forever. Or at least, for a couple dozen years of my life. 
+        I tried out cooking, management, nutrition, accounting, and finance. Then, as I was starting to feel comfortable in my work with quality assurance, software engineering popped
+        up on my social media feed. As I lingered on the contents of each post, the app's algorithm began to match my interest, and coding tips and tricks filled my screen. It aligned 
+        with my passion for creation and efficiency, my natural talent in mathematics, and my desire to continue working for a tech company that would support my work-life balance. 
+    </p>
+    <h3>Contact Me</h3>
+    <form action="contactme" method="post"></form>
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name">
+            <label for="email">Email: </label>
+            <input type="text" name="email">
+            <label for="phone">Phone: </label>
+            <input type="text" name="phone">
+        </div>
+        <br>
+        <div>
+            <label for="message">Message: </label>
+        </div>
+        <div>
+        <textarea name="message" id="message" cols="40" rows="5"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>       
+</html> 
